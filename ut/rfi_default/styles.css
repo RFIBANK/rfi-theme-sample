@@ -266,3 +266,180 @@ div#help {
     float: right;
     text-align: right;
 }
+
+div#sender{
+    background: url('CardSgr.png');
+    height: 175px;
+    width: 308px;
+    vertical-align: top;
+    display: inline-block;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+div#senderPANLabel{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+div#senderPANEdit{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+div#senderPANEdit input{
+    font-size: 18px;
+    font-weight:bold;
+}
+
+div#senderPANErrorMessage{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #d04736;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+/*
+    top: 245px;
+*/
+    top: 270px;
+}
+
+div#senderExpDLabel{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+div#senderExpDSelect{
+    display: inline-block;
+}
+
+div#reciver{
+    background: url('CardRgr.png');
+    height: 175px;
+    width: 282px;
+    vertical-align: top;
+    display: inline-block;
+    color: #000000;
+    font-weight:normal;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+div#reciverPANLabel{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+div#reciverPANEdit{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+div#reciverPANEdit input{
+    font-size: 18px;
+    font-weight:bold;
+}
+
+div#reciverPANErrorMessage{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #d04736;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+/*
+    top: 245px;
+*/
+    top: 270px;
+}
+
+div#cvvLabel{
+    margin-left: 10px;
+    margin-top: -5px;
+    display: inline-block;
+    color: #000000;
+    font-weight: normal;
+
+}
+div#cvvEdit{
+    margin-left: 10px;
+    margin-top: 7px;
+    display: inline-block;
+}
+div#cvvEdit input{
+    font-size: 18px;
+    font-weight:bold;
+}
+
+div#cvvError{
+    color: #d04736;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 375px;
+}
+
+div#amountTransfer {
+/*
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+
+    color:#ee1c50;
+    font-size: 25px;
+    text-align:right;
+    line-height:42px;
+*/
+}
+
+div#amountTransfer input{
+    font-size: 18px;
+    font-weight:bold;
+}
+div#amountTransfer select{
+    font-size: 18px;
+    font-weight:bold;
+}
+div#amountTransferLabel{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #000000;
+    font-weight: italic;
+}
+
+div#acceptMsg{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 12px;
+}
+div#acceptMsg a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+div#additional_cost {
+    margin-top: 10px;
+    color: #000000;
+    font-size: 15px;
+    text-align: right;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+h23 { /* Some titles? payTransfer, etc */
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: block;
+    font-family: PT Sans;
+    font-size: 28px;
+    /*color: #ffffff;*/
+    text-align: left;
+}
+
+.loader {
+    background: url("ajax-loader.gif") no-repeat 50px;
+}
